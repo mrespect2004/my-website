@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deena's Garden & Synergy Ltd</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5fff5;
+color:#333;
+}
+
+header{
+background:#0b7d32;
+padding:15px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1464226184884-fa280b87c399");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+max-width:700px;
+}
+
+.btn{
+background:#00c853;
+padding:15px 35px;
+color:white;
+text-decoration:none;
+border-radius:40px;
+}
+
+section{
+padding:70px 25px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:15px;
+}
+
+.about h2{
+color:#0b7d32;
+margin-bottom:20px;
+}
+
+.about p{
+line-height:1.8;
+text-align:justify;
+}
+
+@media(max-width:768px){
+
+.about{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<h1>Deena's Garden & Synergy Ltd</h1>
+
+<p>
+Growing Healthy Seedlings and Building
+a Greener Future.
+</p>
+
+<a class="btn" href="#about">Learn More</a>
+
+</section>
+
+<section id="about">
+
+<div class="container">
+
+<div class="about">
+
+<img src="ceo.jpg">
+
+<div>
+
+<h2>About Our Company</h2>
+
+<p>
+
+Deena's Garden & Synergy Ltd is a trusted agricultural company committed to providing quality seedlings, modern farming solutions, and professional agricultural support. Under the leadership of CEO Hajara Sulaiman, our company focuses on promoting sustainable agriculture through innovation, quality service, and customer satisfaction.
+
+We believe that every successful harvest begins with healthy seedlings and proper guidance. Our mission is to support farmers, organizations, and communities with reliable agricultural products and expert advice that improve productivity and contribute to food security.
+
+With dedication, integrity, and excellence, we continue to build strong relationships with our customers while creating a greener future for everyone.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- GALLERY -->
+
+<section id="gallery">
+
+<div class="container">
+
+<h2 style="text-align:center;color:#0b7d32;">Gallery</h2>
+
+<br>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+
+<img src="ceo.jpg" style="width:100%;border-radius:15px;">
+
+<img src="farm1.jpg" style="width:100%;border-radius:15px;">
+
+<img src="farm2.jpg" style="width:100%;border-radius:15px;">
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" style="background:#0b7d32;color:white;">
+
+<div class="container">
+
+<h2 style="text-align:center;">Contact Us</h2>
+
+<br>
+
+<p><b>CEO:</b> Hajara Sulaiman</p>
+
+<p><b>Company:</b> Deena's Garden & Synergy Ltd</p>
+
+<p><b>Phone:</b> +234 802 098 3750</p>
+
+<p><b>Address:</b> Behind Kura Plaza, Medile, Gurin Gawa, Kumbotso LGA, Kano State.</p>
+
+<br>
+
+<a href="https://wa.me/2348020983750"
+style="background:#25D366;color:white;padding:15px 30px;text-decoration:none;border-radius:30px;display:inline-block;">
+Chat on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer style="background:#083d1d;color:white;text-align:center;padding:20px;">
+
+<p>
+© 2026 Deena's Garden & Synergy Ltd.
+All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
